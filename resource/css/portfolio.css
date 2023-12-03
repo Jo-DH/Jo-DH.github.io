@@ -16,6 +16,9 @@ body {
     justify-content: space-between;
 
     position: fixed;
+    z-index: 99999 ;
+
+    background-color: rgba(245, 245, 255, 1);
 }
 
 .top-bar-title {
@@ -26,16 +29,12 @@ body {
     font-family: '경기천년제목';
     text-align: center;
     line-height: 72px;
-
-    background-color: rgba(245, 245, 255, 0.77)
 }
 
 nav {
     width: 1000px;
 
     display: flex;
-
-    background-color: rgba(245, 245, 255, 0.77);
 }
 
 .nav-elem {
