@@ -53,6 +53,10 @@ nav {
     text-decoration: none;
 }
 
+.menu-icon {
+    display: none;
+}
+
 main {
     padding-top: 72px;
 }
@@ -148,4 +152,49 @@ main > .title {
     height: 50%;
     margin-left: 35px;
     margin-bottom: 25px;
+}
+
+@media(max-width: 800px) {
+    .top-bar-title {
+        width: 200px;
+
+        font-size: 24px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-icon-img {
+        width: 36px;
+        height: 36px;
+
+        margin-top: 12px;
+    }
+
+    main > .title {
+        width: 90%;
+        height: 75px;
+        margin: auto;
+    
+        font-size: 27px;
+        font-family: '경기천년제목';
+        transform: rotate(0.04deg);
+        line-height: 75px;
+    }
+
+    .portfolio-details > summary {
+        width: 90%;
+        height: 24px;
+        
+        line-height: 24px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: '경기천년제목';
+        transform: rotate(0.04deg);
+    }
 }
