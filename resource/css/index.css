@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background-color: rgba(230, 230, 255, 0.55);
+    background-color: rgba(245, 245, 255, 0.77);
 }
 
 nav {
@@ -14,7 +14,7 @@ nav {
 
     display: flex;
 
-    background-color: rgba(230, 230, 255, 1);
+    background-color: rgba(245, 245, 255, 1);
 }
 
 .nav-elem {
