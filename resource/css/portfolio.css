@@ -65,7 +65,7 @@ main {
 
 .area-title {
     width: 90%;
-    height: 100px;
+    height: 70px;
     margin: auto;
 
     font-size: 36px;
@@ -79,6 +79,7 @@ main {
 .introduction {
     width: 90%;
     margin: auto;
+    margin-top: 20px;
 
     display: grid;
     grid-template-columns: repeat(3, 400px);
@@ -258,7 +259,7 @@ main {
 }
 
 .skill-table {
-    width: 900px;
+    width: 750px;
     margin: 15px;
     margin-left: 35px;
     border: 1px solid black;
