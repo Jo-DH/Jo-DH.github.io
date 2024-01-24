@@ -5,7 +5,337 @@
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <title>Jometry</title>
     <meta name="viewport" content="width-device-width, initial-scale=1">
-    <link rel="stylesheet" href="/resource/css/index.css">
+    <link rel="stylesheet" hr<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <title>Jometry's Portfolio</title>
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <link rel="stylesheet" href="/resource/css/portfolio.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    <body>
+    
+        <div class="top-bar">
+            <div class="top-bar-title">
+                JDH's Portfolio
+            </div>
+            <nav>
+                <a class="nav-elem introduction-btn">
+                    소개
+                </a>
+                <a class="nav-elem skills-btn">
+                    기술
+                </a>
+                <a class="nav-elem projects-btn">
+                    프로젝트
+                </a>
+                <a class="nav-elem">
+                    일지
+                </a>
+            </nav>
+            <script>
+                const introductionBtn = document.querySelector(".introduction-btn");
+                introductionBtn.addEventListener("click", ()=>{
+                    let introductionTop = document.querySelector(".introduction-area").offsetTop;
+                    window.scrollTo({left:0, top:introductionTop - 70});
+                });
+    
+                const skillsBtn = document.querySelector(".skills-btn");
+                skillsBtn.addEventListener("click", ()=>{
+                    let skillsTop = document.querySelector(".skill-area").offsetTop;
+                    window.scrollTo({left:0, top:skillsTop - 70});
+                });
+    
+                const projectsBtn = document.querySelector(".projects-btn");
+                projectsBtn.addEventListener("click", ()=>{
+                    let projectsTop = document.querySelector(".project-area").offsetTop;
+                    window.scrollTo({left:0, top:projectsTop - 70});
+                });
+            </script>
+            <div class="menu-icon">
+                <img class="menu-icon-img" src="/resource/icon/menu-icon.png" alt="메뉴">
+            </div>
+        </div>
+    
+        <main>
+            
+            <div class="introduction-area">
+    
+                <div class="area-title About-Me" name="Introduction">소개</div>
+    
+                <div class="introduction">
+    
+                    <div class="intorduction-elem">
+    
+                        <div class="IE-title">
+                            이름
+                        </div>
+    
+                        <div class="IE-contents">
+                            조도형
+                        </div>
+    
+                    </div>
+    
+                    <div class="intorduction-elem">
+    
+                        <div class="IE-title">
+                            생년월일
+                        </div>
+    
+                        <div class="IE-contents">
+                            96.01.09
+                        </div>
+    
+                    </div>
+    
+                    <div class="intorduction-elem">
+    
+                        <div class="IE-title">
+                            주소지
+                        </div>
+    
+                        <div class="IE-contents">
+                            서울특별시 관악구
+                        </div>
+    
+                    </div>
+    
+                    <div class="intorduction-elem">
+    
+                        <div class="IE-title">
+                            이메일
+                        </div>
+    
+                        <div class="IE-contents">
+                            jometry109@gmail.com
+                        </div>
+    
+                    </div>
+    
+                    <div class="intorduction-elem">
+    
+                        <div class="IE-title">
+                            연락처
+                        </div>
+    
+                        <div class="IE-contents">
+                            010-5132-7243
+                        </div>
+    
+                    </div>
+    
+                    <div class="intorduction-elem">
+    
+                        <div class="IE-title">
+                            학력
+                        </div>
+    
+                        <div class="IE-contents">
+                            강원대학교 컴퓨터과학전공
+                        </div>
+    
+                    </div>
+    
+                </div>
+            </div>
+    
+            <div class="skill-area">
+    
+                <div class="area-title">기술</div>
+    
+                <div class="skills">
+    
+                    <div class="skill-category">
+                        <!-- <div class="skill-category-title">
+                            Backend
+                        </div> -->
+                        <div class="skill-list">
+                            <img class="java-logo" src="/resource/image/java_logo.png" alt="java">
+                            <img class="spring-logo" src="/resource/image/spring_logo.png" alt="spring">
+                            <img class="mybatis-logo" src="/resource/image/mybatis_logo.png" alt="mybatis">
+                            <img class="oracle-logo" src="/resource/image/oracle_logo.png" alt="oracle">
+                            <!-- <img class="c-logo" src="/resource/image/c_logo.png" alt="c"> -->
+                        </div>
+                    </div>
+    
+                    <div class="skill-category">
+                        <!-- <div class="skill-category-title">
+                            Frontend
+                        </div> -->
+                        <div class="skill-list">
+                            <img class="html-logo" src="/resource/image/html_logo.png" alt="html">
+                            <img class="css-logo" src="/resource/image/css_logo.png" alt="css">
+                            <img class="JavaScript-logo" src="/resource/image/JavaScript_logo.png" alt="JavaScript">
+                            <img class="jquery-logo" src="/resource/image/jquery_logo.png" alt="jquery">
+                            <img class="bootstrap-logo" src="/resource/image/bootstrap_logo.png" alt="bootstrap">
+                        </div>
+                    </div>
+    
+                    <div class="skill-category">
+                        <!-- <div class="skill-category-title">
+                            Version Control
+                        </div> -->
+                        <div class="skill-list">
+                            <img class="git-logo" src="/resource/image/git_logo.png" alt="git">
+                            <img class="github-logo" src="/resource/image/github_logo.png" alt="github">
+                        </div>
+                    </div>
+    
+                    <div class="skill-category">
+                        <!-- <div class="skill-category-title">
+                            Communication
+                        </div> -->
+                        <div class="skill-list">
+                            <img class="erdcloud-logo" src="/resource/image/erdcloud_logo.svg" alt="erdcloud">
+                            <img class="figma-logo" src="/resource/image/figma_logo.png" alt="figma">
+                            <img class="notion-logo" src="/resource/image/notion_logo.svg" alt="notion">
+                        </div>
+                    </div>
+    
+                    <div class="skill-category">
+                        <!-- <div class="skill-category-title">
+                            Certificate
+                        </div> -->
+                        <div class="skill-list">
+                            <img class="hrdk-logo" src="/resource/image/hrdk_logo.png" alt="hrdk">
+                            <div class="skill-subtitle">정보처리기사(2019.11)</div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+            <div class="project-area">
+    
+                <div class="area-title">프로젝트</div>
+    
+                <details class="portfolio-details">
+                    <summary>KH Semi-Project</summary>
+    
+                    <div class="link-gh">
+                        Github : 
+                        <a href="https://github.com/d0-6lue/skillMarket" target="_blank">https://github.com/d0-6lue/skillMarket</a>
+                    </div>
+    
+                    <table class="skill-table">
+                        <tr>
+                            <td class="skill-table-head">Back-end</td>
+                            <td class="skill-table-body">Java, Servlet, JSP</td>
+                        </tr>
+                        <tr>
+                            <td class="skill-table-head">Front-end</td>
+                            <td class="skill-table-body">Html, CSS, Javascript</td>
+                        </tr>
+                        <tr>
+                            <td class="skill-table-head">DBMS</td>
+                            <td class="skill-table-body">Oracle21C XE</td>
+                        </tr>
+                        <tr>
+                            <td class="skill-table-head">Server</td>
+                            <td class="skill-table-body">Apache Tomcat 9.0</td>
+                        </tr>
+                        <tr>
+                            <td class="skill-table-head">Tools</td>
+                            <td class="skill-table-body">Eclipse, Vscode, Sqldeveloper, Sourcetree</td>
+                        </tr>
+                        <tr>
+                            <td class="skill-table-head">Collaborations</td>
+                            <td class="skill-table-body">Git, Github, ERDcloud, Figma, Notion</td>
+                        </tr>
+                        <tr>
+                            <td class="skill-table-head">etc</td>
+                            <td class="skill-table-body">AJAX, Websocket</td>
+                        </tr>
+                    </table>
+    
+                    <li class="func-li">
+                        <div class="func-title">구매</div>
+                        <img class="exe-img" src="/resource/image/ex_view/구매 화면.png" alt="구매 화면">
+                    </li>
+    
+                    <li class="func-li">
+                        <div class="func-title">채팅</div>
+                        <img class="exe-img" src="/resource/image/ex_view/채팅 화면.png" alt="채팅 화면">
+                    </li>
+                    
+                </details>
+    
+                <details class="portfolio-details">
+                    <summary>KH Final-Project</summary>
+    
+                    <div class="link-gh">
+                        Github : 
+                        <a href="https://github.com/soyeon323/Zoody" target="_blank">https://github.com/soyeon323/Zoody</a>
+                    </div>
+                    <div class="link-gh">
+                        Notion : 
+                        <a href="https://eminent-warlock-c48.notion.site/2-8725e51df2a742f6b978586f10d06bce" target="_blank">https://eminent-warlock-c48.notion.site/2-8725e51df2a742f6b978586f10d06bce</a>
+                    </div>
+    
+    
+                    <table class="skill-table">
+                        <tr>
+                            <td class="skill-table-head">Framework</td>
+                            <td class="skill-table-body">Spring, Mybatis</td>
+                        </tr>
+                        <tr>
+                            <td class="skill-table-head">Back-end</td>
+                            <td class="skill-table-body">Java, JSP</td>
+                        </tr>
+                        <tr>
+                            <td class="skill-table-head">Front-end</td>
+                            <td class="skill-table-body">Html, CSS, Javascript</td>
+                        </tr>
+                        <tr>
+                            <td class="skill-table-head">DBMS</td>
+                            <td class="skill-table-body">Oracle21C XE</td>
+                        </tr>
+                        <tr>
+                            <td class="skill-table-head">Server</td>
+                            <td class="skill-table-body">Apache Tomcat 9.0</td>
+                        </tr>
+                        <tr>
+                            <td class="skill-table-head">Tools</td>
+                            <td class="skill-table-body">Eclipse, Vscode, Sqldeveloper, Sourcetree</td>
+                        </tr>
+                        <tr>
+                            <td class="skill-table-head">Collaborations</td>
+                            <td class="skill-table-body">Git, Github, ERDcloud, Figma, Notion</td>
+                        </tr>
+                        <tr>
+                            <td class="skill-table-head">etc</td>
+                            <td class="skill-table-body">AJAX, Websocket</td>
+                        </tr>
+                    </table>
+    
+                    <li class="func-li">
+                        <div class="func-title">주소록</div>
+                        <img class="exe-img" src="/resource/image/ex_view/주소록 화면.png" alt="주소록">
+                    </li>
+                    <li class="func-li">
+                        <div class="func-title">쪽지</div>
+                        <img class="exe-img" src="/resource/image/ex_view/쪽지 보내기 화면.png" alt="쪽지 보내기">
+                        <img class="exe-img" src="/resource/image/ex_view/쪽지 리스트 화면.png" alt="쪽지 리스트">
+                    </li>
+                    <li class="func-li">
+                        <div class="func-title">전자결재</div>
+                        <img class="exe-img" src="/resource/image/ex_view/전자결재 작성 화면1.png" alt="전자결재 작성 화면1">
+                        <img class="exe-img" src="/resource/image/ex_view/전자결재 작성 화면2.png" alt="전자결재 작성 화면2">
+                        <img class="exe-img" src="/resource/image/ex_view/전자결재 리스트 화면.png" alt="전자결재 리스트 화면">
+                        <img class="exe-img" src="/resource/image/ex_view/전자결재 상세조회 화면.png" alt="전자결재 상세조회 화면">
+                    </li>
+                </details>
+    
+            </div>
+    
+        </main>
+    
+    </body>
+    </html>ef="/resource/css/index.css">
 </head>
 <body>
 
